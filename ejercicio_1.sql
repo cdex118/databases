@@ -81,10 +81,7 @@ INSERT INTO Pagos (ContrataciónID, Monto, FechaPago, MétodoPago, Estado) VALUE
 
 INSERT INTO Empleados (Nombre, Cargo, Email, Teléfono) VALUES ('Carlos Méndez', 'Especialista en seguridad informática', 'carlos.mendez@empresa.com', '321654987'),('Ana Gómez', 'Administradora de redes', 'ana.gomez@empresa.com', '456987123');
 
-INSERT INTO Asignaciones (EmpleadoID, ContrataciónID, FechaAsignación) 
-VALUES 
-(1, 1, '2025-02-17'),
-(2, 2, '2025-02-10');
+INSERT INTO Asignaciones (EmpleadoID, ContrataciónID, FechaAsignación) VALUES (1, 1, '2025-02-17'), (2, 2, '2025-02-10');
 
 
 INSERT INTO Informes (ContrataciónID, FechaEntrega, Resumen, ArchivoURL) VALUES (1, '2025-02-20', 'Informe detallado de las vulnerabilidades detectadas en el sistema.', 'http://informe.com/informe1.pdf'),(2, '2025-02-15', 'Informe de mantenimiento de redes y optimización realizada.', 'http://informe.com/informe2.pdf');
